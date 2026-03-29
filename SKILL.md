@@ -20,8 +20,8 @@ metadata:
     config:
       env:
         YOUCOM_API_KEY:
-          description: "API key for you.com research and extract endpoints (optional for free search)"
-          required: false
+          description: "API key for you.com research and extract endpoints"
+          required: true
 ---
 
 # you.com Web Search
