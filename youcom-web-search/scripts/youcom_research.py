@@ -18,9 +18,9 @@ def research(query: str, depth: str = "standard", api_key: str = None) -> dict:
     if not api_key:
         raise ValueError("YOUCOM_API_KEY environment variable is not set")
 
-    payload = json.dumps({"query": query, "depth": depth}).encode("utf-8")
+    payload = json.dumps({"input": query, "depth": depth}).encode("utf-8")
     req = urllib.request.Request(
-        "https://api.you.com/v1/agents/research",
+        "https://api.you.com/v1/research",
         data=payload,
         headers={
             "Content-Type": "application/json",

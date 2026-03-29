@@ -1,7 +1,7 @@
 ---
 name: youcom-web-search
-description: you.com free web search, deep research, and content extraction for OpenClaw.
-version: 1.0.0
+description: you.com web search, deep research, and content extraction for OpenClaw. Free tier for basic search; research and extract require paid API key.
+version: 1.0.9
 triggers:
   - "you.com"
   - "youcom"
@@ -13,10 +13,15 @@ triggers:
   - "extract content"
   - "read this page"
 metadata:
-  openclaw:
+  clawdbot:
     emoji: "🔎"
     requires:
       bins: [python3]
+    config:
+      env:
+        YOUCOM_API_KEY:
+          description: "API key for you.com research and extract endpoints"
+          required: true
 ---
 
 # you.com Web Search
@@ -158,5 +163,5 @@ No third-party dependencies. Uses Python standard library only:
 | Tool | Method | Endpoint |
 |------|--------|----------|
 | `youcom_search` | GET | `https://api.you.com/v1/agents/search` |
-| `youcom_research` | POST | `https://api.you.com/v1/agents/research` |
+| `youcom_research` | POST | `https://api.you.com/v1/research` |
 | `youcom_extract` | POST | `https://ydc-index.io/v1/contents` |
