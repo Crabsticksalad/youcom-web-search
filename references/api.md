@@ -11,9 +11,9 @@ Headers: Accept: application/json
 
 ### Research — Paid
 ```
-POST https://api.you.com/v1/agents/research
+POST https://api.you.com/v1/research
 Headers: Content-Type: application/json, X-API-Key: <key>
-Body: {"query": "...", "depth": "standard"}
+Body: {"input": "...", "depth": "standard"}
 Depth options: lite, standard, deep, exhaustive
 ```
 

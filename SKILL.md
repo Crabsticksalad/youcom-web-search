@@ -163,5 +163,5 @@ No third-party dependencies. Uses Python standard library only:
 | Tool | Method | Endpoint |
 |------|--------|----------|
 | `youcom_search` | GET | `https://api.you.com/v1/agents/search` |
-| `youcom_research` | POST | `https://api.you.com/v1/agents/research` |
+| `youcom_research` | POST | `https://api.you.com/v1/research` |
 | `youcom_extract` | POST | `https://ydc-index.io/v1/contents` |
