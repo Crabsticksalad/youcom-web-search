@@ -13,14 +13,14 @@ triggers:
   - "extract content"
   - "read this page"
 metadata:
-  openclaw:
+  clawdbot:
     emoji: "🔎"
     requires:
       bins: [python3]
     config:
       env:
         YOUCOM_API_KEY:
-          description: "API key for you.com research and extract (optional — free search works without it)"
+          description: "API key for you.com research and extract endpoints (optional for free search)"
           required: false
 ---
 
