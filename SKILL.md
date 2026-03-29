@@ -1,6 +1,6 @@
 ---
 name: youcom-web-search
-description: you.com free web search, deep research, and content extraction for OpenClaw.
+description: you.com web search, deep research, and content extraction for OpenClaw. Free tier for basic search; research and extract require paid API key.
 version: 1.0.0
 triggers:
   - "you.com"

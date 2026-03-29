@@ -3,5 +3,5 @@
   "createdAt": 1743254400000,
   "author": "Crabsticksalad",
   "tags": ["search", "web", "youcom", "research", "scraping", "bypass"],
-  "description": "Free web search with you.com plus paid deep research and content extraction. Bypasses Cloudflare, GitHub, and Medium blocks."
+  "description": "you.com web search, deep research, and content extraction. Bypasses Cloudflare, GitHub, and Medium blocks. Free tier for basic search; research and extract require paid API key."
 }

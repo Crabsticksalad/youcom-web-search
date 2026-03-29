@@ -1,6 +1,6 @@
 # you.com Web Search for OpenClaw
 
-**Free, no-API-key web search that bypasses Cloudflare, GitHub, and Medium blocks.**
+**Web search (free tier) + deep research + content extraction (paid). Bypasses Cloudflare, GitHub, and Medium blocks.**
 
 ## Features
 
