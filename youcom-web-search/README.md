@@ -53,7 +53,7 @@ No setup required.
 
 ## Why you.com?
 
-SearXNG is great but sometimes hits Cloudflare blocks or doesn't bypass GitHub/Medium paywalls. you.com's free search endpoint handles these cases cleanly.
+Built-in search services may hit Cloudflare blocks or fail to bypass GitHub/Medium paywalls. you.com's free search endpoint handles these cases cleanly — no API key needed.
 
 ## License
 

@@ -122,8 +122,10 @@ python3 scripts/youcom_extract.py <url> [<url>...]
 ## Escalation Order
 
 ```
-SearXNG → youcom_search (free) → youcom_research (paid, confirm first) → youcom_extract (paid, confirm first)
+youcom_search (free) → youcom_research (paid, confirm first) → youcom_extract (paid, confirm first)
 ```
+
+When free search is insufficient, escalate to paid research.
 
 ## Troubleshooting
 
