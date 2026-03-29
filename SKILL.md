@@ -17,6 +17,11 @@ metadata:
     emoji: "🔎"
     requires:
       bins: [python3]
+    config:
+      env:
+        YOUCOM_API_KEY:
+          description: "API key for you.com research and extract (optional — free search works without it)"
+          required: false
 ---
 
 # you.com Web Search
