@@ -2,6 +2,13 @@
   "version": "1.0.1",
   "createdAt": 1743254400000,
   "author": "Crabsticksalad",
+  "repository": "https://github.com/Crabsticksalad/youcom-web-search",
   "tags": ["search", "web", "youcom", "research", "scraping", "bypass"],
-  "description": "you.com web search, deep research, and content extraction. Bypasses Cloudflare, GitHub, and Medium blocks. Free tier for basic search; research and extract require paid API key."
+  "description": "you.com web search, deep research, and content extraction. Bypasses Cloudflare, GitHub, and Medium blocks. Free tier for basic search; research and extract require paid API key.",
+  "env": {
+    "YOUCOM_API_KEY": {
+      "description": "API key for you.com research and extract endpoints",
+      "required": true
+    }
+  }
 }
